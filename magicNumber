@@ -1,5 +1,6 @@
 //find magicnumber that is-> 1458=1+4+5+8==>18
 //18*81=1458    magic-number
+
 import java.util.Scanner;
 
 public class magic {
