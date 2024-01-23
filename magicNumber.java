@@ -4,7 +4,7 @@
 import java.util.Scanner;
 
 public class magic {
-	void check(int a) {
+	void Check(int a) {
 		int r=0,rev=0,digit,org=a,q = 0;
 		while(a>0) {
 			digit=a%10;
@@ -30,7 +30,7 @@ public class magic {
 		try (Scanner sc = new Scanner(System.in)) {
 			int a=sc.nextInt();
 			magic number=new magic();
-			number.check(a);
+			number.Check(a);
 		}
 
 	}
